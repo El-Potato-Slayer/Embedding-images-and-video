@@ -52,3 +52,18 @@
 .flex{
     display: flex;
 }
+
+#video-section{
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 854px;
+}
+
+#video-info{
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+#video-info i{
+    margin: 10px;
+}
