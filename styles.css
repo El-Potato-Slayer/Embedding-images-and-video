@@ -76,6 +76,19 @@ main{
     margin: 10px;
 }
 
+hr {
+    height: 1px;
+    border: none;
+    background-color:hsl(0, 0%, 80%);
+}
+#uploaded-section {
+    padding-top: 24px;
+    grid-template-columns: 0.5fr 2fr 0.5fr;
+}
+#avatar {
+    width: 80px;
+    border-radius: 50%;
+}
 /* Recommended section */
 #recommended-section{
     padding: 0px 24px;
