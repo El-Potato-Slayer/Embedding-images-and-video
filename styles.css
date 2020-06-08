@@ -53,9 +53,17 @@
     display: flex;
 }
 
+/* Main section */
+main{
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+}
+
+/* Video-section */
+
 #video-section{
     margin-left: 100px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     width: 854px;
 }
 
@@ -66,4 +74,11 @@
 
 #video-info i{
     margin: 10px;
+}
+
+/* Recommended section */
+#recommended-section{
+    padding: 0px 24px;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 8px;
 }
