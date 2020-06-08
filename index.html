@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -13,7 +14,7 @@
             <img src="assets/menu.png" width="25" alt="">
             <img id="logo" src="assets/logo.png" alt="youtube logo">
         </div>
-        <div>
+        <div class="flex">
             <input id="searchbox" type="text" placeholder="Search">
             <button id="searchbutton"><img src="assets/lookup.png" width="15" alt=""></button>
         </div>
@@ -26,15 +27,15 @@
     <main class="grid-container">
         <div id="video-section">
             <iframe width="854" height="480" src="https://www.youtube.com/embed/Zo5YRdRh3PY"></iframe>
-            <h3>Fall in Archaea -- Motive</h3>
+            <h3 id="title">Fall in Archaea -- Motive</h3>
             <div class="grid-container" id="video-info">
-            <h4>2,000 views June 4, 2020</h4>
+            <span class="small gray">2,000 views June 4, 2020</span>
                 <div>
-                    <i class="fa fa-thumbs-up fa-lg">Like</i>
-                    <i class="fa fa-thumbs-down fa-lg">Dislike</i>
-                    <i class="fa fa-share fa-lg">Share</i>
-                    <i class="fa fa-plus fa-lg">Save</i>
-                    <i class="fa fa-ellipsis-h fa-lg"></i>
+                    <i class="fa fa-thumbs-up fa-lg gray"><span class="small pad-left-8">3.8M</span></i>
+                    <i class="fa fa-thumbs-down fa-lg gray"><span class="small pad-left-8">2.5K</span></i>
+                    <i class="fa fa-share fa-lg gray"><span class="small pad-left-8">Share</span></i>
+                    <i class="fa fa-plus fa-lg gray"><span class="small pad-left-8">Save</span></i>
+                    <i class="fa fa-ellipsis-h fa-lg gray"></i>
                 </div>
             </div>
             <hr>
@@ -42,10 +43,10 @@
                 <img id="avatar" src="https://i.pinimg.com/originals/ec/80/34/ec8034b205663970df869c0d3a55de0c.jpg
                 " alt="avatar-img"/>
                 <div>
-                <h4>The Net Naija</h4>
-                <span>500K subcribers</span>
+                <h5>The Net Naija</h5>
+                <span class="small gray">500K subcribers</span>
                 </div>
-                <button>SUBSCRIBE</button>
+                <button id="subscriber-btn">SUBSCRIBE</button>
 
             </div>
         </div>
@@ -53,33 +54,38 @@
         <aside id="recommended-section" class="grid-container">
             <img src="https://i.ytimg.com/vi/lyGZ9ssJAoc/maxresdefault.jpg" width="180" alt="">
             <div>
-                <h4>How to make youtube thumbnails</h4>
-                <span>Eric</span>
-                <span>1.6M views, 6 years ago</span>
+                <h5>How to make youtube thumbnails</h5>
+                <span class="small gray">Eric</span>
+                <br>
+                <span class="small gray">1.6M views, 6 years ago</span>
             </div>
             <img src="https://i.ytimg.com/vi/ReE87Wl6c4I/maxresdefault.jpg" width="180" alt="">
             <div>
-                <h4>How to make youtube thumbnails</h4>
-                <span>Eric</span>
-                <span>1.6M views, 6 years ago</span>
+                <h5>How to make youtube thumbnails for free</h5>
+                <span class="small gray">Grace</span>
+                <br>
+                <span class="small gray">1.6M views, 6 years ago</span>
             </div>
             <img src="https://i.ytimg.com/vi/8YbZuaBP9B8/maxresdefault.jpg" width="180" alt="">
             <div>
-                <h4>How to make youtube thumbnails</h4>
-                <span>Eric</span>
-                <span>1.6M views, 6 years ago</span>
+                <h5>Custom thumbnails</h5>
+                <span class="small gray">Chad</span>
+                <br>
+                <span class="small gray">1.6M views, 6 years ago</span>
             </div>
             <img src="https://i.ytimg.com/vi/cGCCrbsiMl4/maxresdefault.jpg" width="180" alt="">
             <div>
-                <h4>How to make youtube thumbnails</h4>
-                <span>Eric</span>
-                <span>1.6M views, 6 years ago</span>
+                <h5>The best thumbnails</h5>
+                <span class="small gray">Lee</span>
+                <br>
+                <span class="small gray">1.6M views, 6 years ago</span>
             </div>
             <img src="https://i.ytimg.com/vi/Sp3dFF-Bts0/maxresdefault.jpg" width="180" alt="">
             <div>
-                <h4>How to make youtube thumbnails</h4>
-                <span>Eric</span>
-                <span>1.6M views, 6 years ago</span>
+                <h5>How to make youtube thumbnails easy and free</h5>
+                <span class="small gray">John</span>
+                <br>
+                <span class="small gray">1.6M views, 6 years ago</span>
             </div>
         </aside>
 

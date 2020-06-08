@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 /* Navigation bar */
 
 #navigation-bar{
@@ -15,21 +19,24 @@
 
 #logo{
     width: 100px;
+    padding-left: 24px;
 }
 
 #searchbox{
     padding: 5px 12px;
     width: 85%;
-    border-radius: 3px;
-    border: 1px solid gray;
+    border-radius: 3px 0px 0px 3px;
+    border: 1px solid hsl(0, 0%, 80%);
+    font-size: 1rem;
 }
 
 #searchbutton{
-    padding: 4px;
-    margin-left: -6px;
-    border-radius: 3px;
-    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 0px 3px 3px 0px;
+    margin-left: -1px;
+    border: 1px solid hsl(0, 0%, 80%);
     width: 10%;
+    background-color: hsl(0, 0%, 97%);
 }
 
 #left-nav{
@@ -40,31 +47,29 @@
     justify-self: end;
 }
 
-
-.grid-container{
-    display: grid;
-}
-
-.margin-left-16{
-    margin-left: 32px;   
-}
-
-.flex{
-    display: flex;
-}
-
 /* Main section */
+
 main{
     grid-template-columns: 1fr 1fr;
-    margin-top: 20px;
+    /* margin-top: 20px; */
+    margin: 24px 34px;
 }
 
 /* Video-section */
 
 #video-section{
-    margin-left: 100px;
+    /* margin-left: 100px; */
     /* margin-top: 20px; */
     width: 854px;
+}
+
+iframe{
+    border: none;
+}
+
+#title{
+    font-weight: 500;
+    padding-top: 24px;
 }
 
 #video-info{
@@ -83,15 +88,51 @@ hr {
 }
 #uploaded-section {
     padding-top: 24px;
-    grid-template-columns: 0.5fr 2fr 0.5fr;
+    grid-template-columns: 0.25fr 2fr 0.25fr;
+    align-items: center;
 }
+
 #avatar {
-    width: 80px;
+    width: 60px;
     border-radius: 50%;
 }
+
+#subscriber-btn{
+    background-color:  #cc181e;
+    padding: 10px 15px;
+    color: hsl(0, 0%, 90%);
+    border-radius: 3px;
+    border: none;
+}
+
 /* Recommended section */
 #recommended-section{
     padding: 0px 24px;
     grid-template-columns: 1fr 1fr;
     grid-row-gap: 8px;
+}
+
+/* Generic classes */
+.grid-container{
+    display: grid;
+}
+
+.margin-left-16{
+    margin-left: 32px;   
+}
+
+.flex{
+    display: flex;
+}
+
+.gray{
+    color: gray;
+}
+
+.small{
+    font-size: 0.9rem;
+}
+
+.pad-left-8{
+    padding-left: 8px;
 }
