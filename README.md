@@ -5,6 +5,8 @@ The focus of the project is to clone a youtube page. This gives us better insigh
 
 The project contains a section with a video along with a recommended section. The recommended section contains a thumbnails with their respective titles, uploader names and viewer counts. The page also displays the uploader and video information on the bottom of the video.
 
+## Live demo
+[Live demo link](https://boring-hoover-81d0fb.netlify.app/)
 
 ## Built with
 
@@ -12,5 +14,12 @@ The project contains a section with a video along with a recommended section. Th
  - CSS
 
 ## Authors
-Chad van Wyk  
+Chad van Wyk
+ - Github: [@githubhandle](https://github.com/El-Potato-Slayer)
+ - Twitter: [@twitterhandle](https://twitter.com/elpotatoslayer)
+ - LinkedIn: [@LinkedInhandle](www.linkedin.com/in/chad-van-wyk-4228b21a6)
+
 Grace Popoola
+ - Github: [@githubhandle](https://github.com/GraceOyiza)
+ - Twitter: [@twitterhandle](https://twitter.com/PopsonGrace)
+ - LinkedIn: [@LinkedInhandle](www.linkedin.com/in/chad-van-wyk-4228b21a6)
