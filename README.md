@@ -12,6 +12,19 @@ The project contains a section with a video along with a recommended section. Th
 
  - HTML
  - CSS
+ 
+ 
+### Prerequisites
+
+### Setup
+
+### Install
+
+### Usage
+
+### Run tests
+
+### Deployment
 
 ## Authors
 Chad van Wyk
@@ -23,3 +36,11 @@ Grace Popoola
  - Github: [@githubhandle](https://github.com/GraceOyiza)
  - Twitter: [@twitterhandle](https://twitter.com/PopsonGrace)
  - LinkedIn: [@LinkedInhandle](www.linkedin.com/in/chad-van-wyk-4228b21a6)
+ 
+ 
+## Contributing
+Contributions, issues and feature requests are welcome!
+
+## Show your support
+Give a ⭐️ if you like this project!
+
