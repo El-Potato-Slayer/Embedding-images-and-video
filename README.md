@@ -34,7 +34,7 @@ Chad van Wyk
 
 Grace Popoola
  - Github: [@githubhandle](https://github.com/GraceOyiza)
- - Twitter: [@twitterhandle](https://twitter.com/PopsonGrace)
+ - Twitter: [@twitterhandle](https://twitter.com/_PopsonGrace)
  - LinkedIn: [@LinkedInhandle](www.linkedin.com/in/chad-van-wyk-4228b21a6)
  
  
