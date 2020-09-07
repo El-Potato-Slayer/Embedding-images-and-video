@@ -30,12 +30,12 @@ The project contains a section with a video along with a recommended section. Th
 Chad van Wyk
  - Github: [@githubhandle](https://github.com/El-Potato-Slayer)
  - Twitter: [@twitterhandle](https://twitter.com/elpotatoslayer)
- - LinkedIn: [@LinkedInhandle](www.linkedin.com/in/chad-van-wyk-4228b21a6)
+ - LinkedIn: [@LinkedInhandle](http://www.linkedin.com/in/chad-van-wyk-4228b21a6)
 
 Grace Popoola
  - Github: [@githubhandle](https://github.com/GraceOyiza)
  - Twitter: [@twitterhandle](https://twitter.com/_PopsonGrace)
- - LinkedIn: [@LinkedInhandle](www.linkedin.com/in/grace-popoola)
+ - LinkedIn: [@LinkedInhandle](http://www.linkedin.com/in/grace-popoola)
  
  
 ## Contributing
